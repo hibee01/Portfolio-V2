@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2e2e2e;
+}
+/* body{
+    background-color: white;
+    max-width: 1440px;
+    max-height: 2297px;
+} */
+.body-cont{
+    width: 80%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+nav {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: none;
+}
+.link {
+    margin-left: 3rem;
+    font-weight: 600;
+}
+.logo-name {
+    font-weight: 800;
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+}
+.hello p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    width: 40%;
+    margin-top: 1rem;
+}
+.hello span{
+    color: #1400ff;
+}
+.second-sec {
+    margin-top: 5rem;
+}
+.second-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.images-sec {
+    flex-basis: 48%;
+}
+.img-cont{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.img-1{
+    width: 100%;
+}
+.img-2 h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.img-2 p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #202020;
+    margin: 1.5rem 0;
+    width: 90%;
+}
+.img-text{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.third-sec h1{
+    font-family: 'Besley';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #FFFFFF;  
+    padding: 1rem 1.5rem;
+    border: none;
+    background: #1400FF;
+    border-radius: 4px;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.pdf {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.cont{
+    width: 8%;
+    margin-right: 1rem;
+}
+.pdf-details a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pdf-details p {
+    text-decoration: underline;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+.footer-text h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000;
+}
+.footer-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.025em;
+    color: #333333;
+}
+.nav-cont-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+}
+.svg{
+    display: flex;
+    padding-top: 0.5rem;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-sec-1{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #333333;
+}
+footer {
+    padding: 5% 0;
+}
+.footer-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-1 .about-me {
+    width: 90%;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+.svg {
+    margin-bottom: 1rem;
+}
+.footer-2 .link {
+    margin-left: 2rem;
+}
+.footer-3 .btn-blue {
+    background-color: #1400FF;
+    color: #fff;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+.footer-1 {
+    flex-basis: 33%;
+}
+.footer-2 {
+    flex-basis: 33%;
+}
+.footer-1 .name {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.footer-3 {
+    flex-basis: 33%;
+}
