@@ -211,6 +211,23 @@ header {
     font-size: 1rem;
     border-radius: 6px;
 }
+.footer-text h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000;
+}
+.footer-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.025em;
+    color: #333333;
+}
 footer {
     padding: 5% 0;
 }
@@ -238,6 +255,7 @@ footer {
     font-size: 1rem;
     border-radius: 6px;
     width: 100%;
+    cursor: pointer;
 }
 .footer-1 {
     flex-basis: 33%;
@@ -253,14 +271,3 @@ footer {
 .footer-3 {
     flex-basis: 33%;
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -132,7 +132,6 @@ button{
     cursor: pointer;
 }
 .pdf-details p {
-    text-decoration: underline;
     margin: 0.5rem 0;
     font-weight: 500;
 }

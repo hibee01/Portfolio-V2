@@ -51,7 +51,7 @@
 /*small phone to small tablet (481px to 767px) */
 @media(max-width:767px) {
     .container {
-        width: 85%;
+        width: 90%;
     }
     .surname {
         display: none;

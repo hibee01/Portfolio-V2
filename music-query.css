@@ -3,7 +3,7 @@
         width: 60%;
     }
 }
-@media(max-width: 1100px){
+@media(max-width: 1000px){
     footer {
         padding: 7% 0;
     }
@@ -24,11 +24,12 @@
         width: 70%;
         margin-top: 1.5rem;
     }
+ 
 }
 
 @media (max-width: 767px) {
     .container {
-        width: 85%;
+        width: 90%;
     }
     .surname {
         display: none;
@@ -93,13 +94,15 @@
     }
     .next {
         text-align: center;
-        padding: 5% 0;
+        padding: 8% 0;
     }
     .next h2 {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+        margin: 1rem 0 0 0;
     }
     .next button.btn {
         padding: 5% 15%;
+        width: 80%;
     }
     .footer-1 .name {
         font-size: 1.1rem;
@@ -111,6 +114,7 @@
     .footer-1 .about-me {
         width: 100%;
     }
+    
    
 }
 @media(max-width: 400px){
