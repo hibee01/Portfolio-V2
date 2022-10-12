@@ -74,6 +74,9 @@ nav {
     width: 100%;
     margin-bottom: 2rem;
 }
+.hide {
+    display: none;
+}
 .img-1{
     width: 100%;
 }
