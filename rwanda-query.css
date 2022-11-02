@@ -1,0 +1,129 @@
+@media screen and (max-width: 2500px) and (min-width: 1920px){
+    header {
+        padding: 5%;
+    }
+    .container {
+        width: 70%;
+    }
+    .container-text {
+        width: 50%;
+    }
+}
+@media(max-width:1075px){
+    .hero-img-cont {
+        flex-basis: 70%;
+        display: flex;
+    }
+}
+@media(max-width:990px){
+    .logo {
+        flex-basis: 20%;
+    }
+    .logo-img, .design-soft .soft-1 img, .design-soft .soft-2 img{
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    section {
+        margin-bottom: 3rem;
+    }
+    .container-text {
+        width: 80%;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        margin: 2rem 0 3rem 0;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .hero-img img{
+        width: 100%;
+    }
+    .role {
+        width: 60%;
+        margin-top: 2rem;
+    }
+    .design-cont {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .design-cont p, .design-cont h3 {
+       margin-top: 1rem;
+    }
+    #screens .container {
+        width: 90%;
+    }
+    #screens {
+        padding: 3rem 0;
+    }
+    #screens h2 {
+        margin-bottom: 3rem;
+     }
+    .bb .ui-text {
+        order: 1;
+    }
+    .next {
+        text-align: center;
+        padding: 5% 0;
+    }
+    .next h2 {
+        font-size: 1.4rem;
+        margin: 1.5rem 0;
+    }
+    .next button.btn {
+        padding: 5% 15%;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+@media(max-width: 575px){
+    section {
+        margin-bottom: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .container-text {
+        width: 85%;
+    }
+    .role {
+        width: 80%;
+        margin-top: 2rem;
+    }
+    #screens {
+        padding: 2rem 0;
+    }
+    .screen-cont {
+        margin-bottom: 2rem;
+    }
+    #screens h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .screen {
+        flex-basis: 44%;
+        margin-bottom: 1.5rem;
+    }
+    #process {
+        padding: 2rem 0;
+    }
+    #process h2 {
+        margin-bottom: 3rem;
+    }
+    #persona .container{
+        width: 95%;
+    }
+    .persona-1 {
+        display: none;
+    }
+    .persona-2 {
+        display: block;
+    }
+    
+    
+}
