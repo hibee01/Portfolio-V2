@@ -85,6 +85,51 @@ header {
 .header-svg {
     width: 20%;
 }
+.project-details {
+    display: flex;
+    justify-content: space-between;
+}
+.problem p, .goal p{
+    line-height: 1.5;
+}
+.problem, .goal{
+    flex-basis: 47%;
+}
+.scope {
+    text-align: center;
+}
+.scope-img-cont {
+    margin-top: 3rem;
+}
+.scope-img{
+    width: 100%;
+}
+.empathy, .emp-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.empathy p {
+    line-height: 1.5;
+}
+.emp-1 {
+    flex-basis: 40%;
+}
+.emp-2 {
+    flex-basis: 50%;
+}
+.emp-2 p, .emp-2 li {
+    margin-bottom: 1rem;
+}
+.emp-block {
+    display: block;
+}
+.typo h2 {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    line-height: 1.3;
+}
 .art {
     width: 14%;
 }
