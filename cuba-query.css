@@ -87,6 +87,16 @@
     .system-1-cont, .article-1 .pay-text {
         order: 2;
     }
+    .pword {
+        order: 2;
+    }
+    .article-word {
+        margin-top: 2rem;
+    }
+    .ideate-word {
+        margin-top: 0;
+
+    }
     .system-img, .typo-word-img {
         width: 80%;
     }
