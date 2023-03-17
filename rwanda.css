@@ -2,8 +2,8 @@
 
 * {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -12,6 +12,46 @@ body {
 }
 body p {
     color: rgba(255, 255, 255, 0.644);
+}
+hr {
+    opacity: 0.2;
+}
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+nav {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+nav a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.surname {
+    display: none;
+}
+.menu {
+    display: none;
+}
+.link {
+    margin-left: 3rem;
+    font-weight: 500;
+}
+.logo-name {
+    font-weight: 800;
+    font-size: 1.6rem;
 }
 header {
     background-image: url(img/Group\ 153945.webp);
@@ -157,6 +197,17 @@ section {
 }
 #screens h2:last-of-type {
    margin-bottom: 1rem;
+}
+.d-cont {
+    padding: 2rem 0;
+    margin: 0;
+}
+.d2 p {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.d2 li {
+    line-height: 2;
 }
 .screen-cont {
     display: flex;

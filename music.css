@@ -23,6 +23,9 @@ a {
     width: 80%;
     margin: auto;
 }
+.surname {
+    display: none;
+}
 nav {
     padding: 1rem 0;
     display: flex;
@@ -42,8 +45,7 @@ nav {
 }
 header {
     background-image: url(img/hero-bg1.webp);
-    height: 65vh;
-    background-position: center;
+    height: 45vh;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -89,35 +91,70 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.problem h3{
+    line-height: 1.5;
+}
+.problem li, .goal li{
+    line-height: 2;
+}
 .problem p, .goal p{
     line-height: 1.5;
 }
 .problem, .goal{
     flex-basis: 47%;
 }
+.goal h3 {
+    margin: 1rem 0;
+}
 .scope {
     text-align: center;
+}
+.friends {
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
 .scope-img-cont {
     margin-top: 3rem;
 }
 .scope-img{
-    width: 100%;
+    width: 65%;
+    text-align: center;
+    margin: auto;
 }
-.empathy, .emp-1 {
+.comp {
+    text-align: center;
+    width: 80%;
+}
+.empathy {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.empathy .ps p {
+    margin: 1rem 0;
 }
 .empathy p {
     line-height: 1.5;
 }
 .emp-1 {
+    display: flex;
+    /* flex-basis: 40%; */
+}
+.emp-12 {
     flex-basis: 40%;
 }
-.emp-2 {
-    flex-basis: 50%;
+.emp-22 {
+    flex-basis: 55%;
 }
+.emp-22 .problem h3{
+    margin-top: 1rem;
+}
+.emp-22 .goal h2{
+    margin-top: 1rem;
+}
+
 .emp-2 p, .emp-2 li {
     margin-bottom: 1rem;
 }
@@ -142,6 +179,19 @@ header {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
+}
+.high-fi h2 {
+    margin-bottom: 0;
+}
+.empathy .features li {
+    line-height: 1.5;
+}
+.overview-2 .pr p:first-of-type{
+    font-weight: 600;
+}
+.overview-2 .pr p:last-of-type{
+    font-weight: 500;
+    line-height: 1.5;
 }
 .third-section p{
     text-align: center;
@@ -198,6 +248,9 @@ header {
     color: rgb(173, 173, 173);
     font-weight: 500;
 }
+.banner-last {
+    width: 100%;
+}
 .homepage {
     padding: 3% 0;
 }
@@ -220,6 +273,9 @@ header {
     background-color: #040014;
     color: #fff;
     padding: 5% 0;
+}
+.conclusion {
+    margin-top: 1rem;
 }
 .watch {
     background-color: #040014;

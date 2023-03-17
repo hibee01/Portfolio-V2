@@ -172,6 +172,13 @@ header {
     width: 80%;
     line-height: 1.2;
 }
+.article-word h5 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.article-word ol li {
+    line-height: 1.5;
+}
 .system-1-cont {
     display: flex;
     justify-content: space-between;
@@ -236,6 +243,9 @@ header {
 .inspiration-mockup {
     width: 100%;
 }
+.mkv3 {
+    width: 50%;
+}
 .before-after {
     padding: 5% 0;
     text-align: center;
@@ -293,6 +303,12 @@ header {
 }
 .small-mobile {
     flex-basis: 20%;
+}
+.hide2 {
+    display: none;
+}
+.conclude p {
+    width: 70%;
 }
 .next h2 {
     font-size: 2.8rem;

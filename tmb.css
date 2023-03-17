@@ -23,6 +23,9 @@ a {
     width: 80%;
     margin: auto;
 }
+.surname {
+    display: none;
+}
 nav {
     padding: 1rem 0;
     display: flex;
@@ -63,7 +66,6 @@ header {
 .overview-1 p {
     margin-bottom: 1rem;
     font-weight: 600;
-    color: #55009A;
 }
 .overview-1 h2 {
     width: 70%;
@@ -78,8 +80,28 @@ header {
 .overview-2 .overview-1-1 p{
     margin-bottom: 1rem;
 }
-.overview-2 .overview-1-1 p:last-of-type{
+.overview-2 .overview-1-1 p:first-of-type{
     font-weight: 600;
+
+}
+.overview-2 .overview-1-1 p:last-of-type{
+    font-weight: 500;
+}
+.prob, .research {
+    flex-basis: 45%;
+}
+.prob p:first-of-type, .research p:first-of-type{
+    font-weight: 600;
+    line-height: 1.5;
+}
+.prob p, .research p{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.research ol li{
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1rem;
 }
 .third-section {
     color: #fff;
@@ -121,6 +143,9 @@ header {
     justify-content: space-between;
     padding: 3% 0 0 0;
     margin-bottom: 3rem;
+}
+.inspiration-img-cont h4{
+    text-align: justify;
 }
 .inspiration h3 {
     font-size: 1.5rem;
@@ -183,6 +208,20 @@ header {
 }
 .mobile {
     padding: 0 0 5% 0;
+}
+.fp {
+    width: 50%;
+}
+.fp p:first-of-type {
+    line-height: 1.5;
+    font-weight: 600;
+}
+.fp p {
+    line-height: 1.5;
+    font-weight: 500;
+}
+.pr p{
+    line-height: 1.5;
 }
 .next {
     background-color: #040014;

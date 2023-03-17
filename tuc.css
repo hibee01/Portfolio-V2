@@ -22,6 +22,9 @@ a {
     width: 80%;
     margin: auto;
 }
+.surname {
+    display: none;
+}
 nav {
     padding: 1rem 0;
     display: flex;
@@ -75,8 +78,15 @@ header {
 .overview-2 .overview-1-1 p{
     margin-bottom: 1rem;
 }
-.overview-2 .overview-1-1 p:last-of-type{
+.overview-2 .overview-1-1 p:first-of-type{
     font-weight: 600;
+}
+.overview-2 .overview-1-1 p:last-of-type{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.overview-2 .overview-1-1 li{
+    line-height: 1.5;
 }
 .third-section {
     color: #fff;
@@ -161,6 +171,19 @@ header {
 }
 .inspiration-img-cont {
     margin-bottom: 2rem;
+}
+.side-flex .overview-2:first-of-type p:first-of-type{
+    font-weight: 600;
+}
+.side-flex .overview-2:first-of-type p{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.side-flex .overview-2:first-of-type{
+    flex-basis: 40%;
+}
+.side-flex .overview-2:last-of-type{
+    flex-basis: 55%;
 }
 .mobile {
     padding: 0 0 5% 0;

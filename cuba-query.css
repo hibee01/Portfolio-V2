@@ -38,9 +38,6 @@
         font-weight: 800;
         font-size: 1.1rem;
     }
-    .menu {
-        display: block;
-    }
     .links {
         display: none;
     }
@@ -131,6 +128,9 @@
     }
     .art {
         width: 20%;
+    }
+    .conclude p {
+        width: 100%;
     }
     .next {
         text-align: center;

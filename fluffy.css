@@ -22,6 +22,9 @@ a {
     width: 80%;
     margin: auto;
 }
+.surname {
+    display: none;
+}
 nav {
     padding: 1rem 0;
     display: flex;
@@ -75,13 +78,43 @@ header {
 .overview-2 .overview-1-1 p{
     margin-bottom: 1rem;
 }
-.overview-2 .overview-1-1 p:last-of-type{
+.overview-2 .overview-1-1 p:first-of-type{
     font-weight: 600;
+}
+.overview-2 .overview-1-1 p:last-of-type{
+    font-weight: 500;
+    line-height: 1.5;
+}
+.overview-2 .overview-1-1 ol li{
+    line-height: 1.5;
+}
+.cha-cont .cha-1 .overview-text ol li{
+    line-height: 1.5;
+}
+.cha-cont {
+    display: flex;
+    justify-content: space-between;
+}
+.cha-1 {
+    flex-basis: 47%;
+}
+.cha-1 p:first-of-type{
+    font-weight: 600;
+   
+}
+.cha-1 p:last-of-type{
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+.cha-1 p ol li {
+    line-height: 1.5;
+    margin-bottom: 1rem;
 }
 .third-section {
     color: #fff;
-    padding: 7% 0 0 0;
+    padding: 5% 0 0 0;
     background-color: #040014;
+    margin-top: 1.5rem;
 }
 .third-section h3{
     font-size: 2rem;
@@ -109,6 +142,9 @@ header {
 }
 .inspiration-mockup {
     width: 100%;
+}
+.challenge {
+    margin-top: 1rem;
 }
 .heroes {
     padding-left: 5%;
@@ -142,6 +178,9 @@ header {
     margin-top: 0.8rem;
     color: rgb(173, 173, 173);
     font-weight: 500;
+}
+.st li {
+    line-height: 1.5;
 }
 .homepage {
     padding: 3% 0;

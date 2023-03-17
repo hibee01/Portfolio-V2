@@ -1,6 +1,6 @@
-@media screen and (max-width: 2500px) and (min-width: 2000px), (min-width: 2500px){
+@media screen and (max-width: 2500px) and (min-width: 1700px), (min-width: 2500px){
     .container {
-        width: 60%;
+        width: 70%;
     }
 }
 @media(max-width: 1000px){
@@ -28,8 +28,13 @@
 }
 
 @media (max-width: 767px) {
+
     .container {
         width: 90%;
+    }
+    header {
+        height: 65vh;
+        background-position: center;
     }
     .surname {
         display: none;
@@ -37,9 +42,6 @@
     .logo-name {
         font-weight: 800;
         font-size: 1.1rem;
-    }
-    .menu {
-        display: block;
     }
     .links {
         display: none;
@@ -56,6 +58,11 @@
     .overview-1 h2 {
         width: 100%;
         font-size: 1.3rem;
+    }
+    .scope-img{
+        width: 105%;
+        text-align: center;
+        margin: auto;
     }
     .overview-text {
         font-weight: 400;
@@ -112,6 +119,9 @@
     }
     .art {
         width: 20%;
+    }
+    .features {
+        margin-top: 1.5rem;
     }
     .next {
         text-align: center;
